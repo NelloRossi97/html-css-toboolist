@@ -22,40 +22,77 @@ background main #F6F8F9
     vertical-align: middle;
 }
 
+/* main */
+.main-container{
+    width: 100%;
+    background-color: lightblue;
+    padding-top: 50px;
+}
+
+/* nav */
+nav{
+    width: 60%;
+    margin:0 auto;
+    background-color: white;
+    padding: 20px 0 10px 40px;
+    border-radius: 10px 10px 0 0;
+}
+
+#add-section-box
+{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    text-align: center;
+}
+
+::placeholder{
+    color: lightgrey;
+    opacity: 1;
+}
+
 /* page colors */
 .blue-buttons{
-    color: #47ADF1;
+    background-color: #47ADF1;
 }
 
 .q1-goals-buttons{
-    color: #9C72E4;
+    background-color: #9C72E4;
 }
 
 .recuiting-buttons{
-    color: #64C0A9;
+    background-color: #64C0A9;
 }
 
 .mobile-buttons{
-    color: #f29e33;
+    background-color: #f29e33;
 }
 
 .website-buttons{
-    color: #d863a1;
+    background-color: #d863a1;
 }
 
 .sales-buttons{
-    color: #b0c926;
+    background-color: #b0c926;
 }
 
 .check-color{
-    color: #8cd1c0;
+    background-color: #8cd1c0;
 }
 
 .cross-color{
-    color: #EC564C;
+    background-color: #EC564C;
 }
 
 .buttons-text{
     color: white;
     font-size: 16px;
+}
+
+.buttons-style{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
 }
