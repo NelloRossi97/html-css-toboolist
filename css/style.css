@@ -38,61 +38,108 @@ nav{
     border-radius: 10px 10px 0 0;
 }
 
-#add-section-box
-{
-    width: 100px;
-    padding: 10px;
+
+.add-task-btn{
     border-radius: 10px;
-    border: 1px solid lightgrey;
+    border: none;
+    padding: 10px;
     text-align: center;
 }
 
-::placeholder{
-    color: lightgrey;
-    opacity: 1;
+.add-section-btn{
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    color:lightgray;
+    background-color: white;
+}
+
+/* main sections */
+section{
+    width: 60%;
+    margin:2px auto 0px auto;
+    background-color: white;
+    padding: 20px 0 10px 50px;
+
+}
+
+h2{
+    display: inline-block;
+    margin-top: 30px;
+}
+ul{
+    list-style: none;
+    padding-top: 10px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.label{
+    display: inline-block;
+}
+
+.check{
+    display: inline-block;
+    border-radius: 50%;
+    width: 25px;
+    border: 1px solid #8cd1c0;
+    background-color: white;
+    text-align: center;
+}
+
+.label{
+    border-radius: 15px;
+    font-size: 12px;
+    padding: 8px;
+    text-align: center;
 }
 
 /* page colors */
-.blue-buttons{
+.blue-label{
     background-color: #47ADF1;
 }
 
-.q1-goals-buttons{
+.q1-goals-label{
     background-color: #9C72E4;
 }
 
-.recuiting-buttons{
+.recuiting-label{
     background-color: #64C0A9;
 }
 
-.mobile-buttons{
+.mobile-label{
     background-color: #f29e33;
 }
 
-.website-buttons{
+.website-label{
     background-color: #d863a1;
 }
 
-.sales-buttons{
+.sales-label{
     background-color: #b0c926;
 }
 
 .check-color{
-    background-color: #8cd1c0;
+    color: #8cd1c0;
 }
 
 .cross-color{
-    background-color: #EC564C;
+    color: #EC564C;
 }
 
-.buttons-text{
+.white-text{
     color: white;
-    font-size: 16px;
 }
 
-.buttons-style{
+
+
+/* .buttons-style{
     border: none;
     padding: 10px;
-    border-radius: 10px;
     text-align: center;
-}
+} */
+
