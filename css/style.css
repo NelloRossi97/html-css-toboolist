@@ -7,6 +7,19 @@ background main #F6F8F9
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+.head-container{
+    padding: 10px 0px 10px 20px;
+    font-weight: bold;
+    font-size: 50px;    
+}
+
+.head-container img{
+    width: 80px;
+    vertical-align: middle;
 }
 
 /* page colors */
@@ -40,4 +53,9 @@ background main #F6F8F9
 
 .cross-color{
     color: #EC564C;
+}
+
+.buttons-text{
+    color: white;
+    font-size: 16px;
 }
