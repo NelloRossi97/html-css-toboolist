@@ -22,12 +22,6 @@ background main #F6F8F9
     vertical-align: middle;
 }
 
-/* main */
-.main-container{
-    width: 100%;
-    background-color: lightblue;
-    padding-top: 50px;
-}
 
 /* nav */
 nav{
@@ -56,6 +50,13 @@ nav{
     background-color: white;
 }
 
+/* main */
+.main-container{
+    width: 100%;
+    background-color: lightblue;
+    padding: 80px;
+}
+
 /* main sections */
 section{
     width: 60%;
@@ -75,6 +76,7 @@ ul{
 }
 
 ul li{
+    padding-top: 15px;
     display: inline-block;
 }
 
@@ -87,6 +89,15 @@ ul li{
     border-radius: 50%;
     width: 25px;
     border: 1px solid #8cd1c0;
+    background-color: white;
+    text-align: center;
+}
+
+.cross{
+    display: inline-block;
+    border-radius: 50%;
+    width: 25px;
+    border: 1px solid #EC564C;
     background-color: white;
     text-align: center;
 }
@@ -107,7 +118,7 @@ ul li{
     background-color: #9C72E4;
 }
 
-.recuiting-label{
+.recruiting-label{
     background-color: #64C0A9;
 }
 
@@ -136,10 +147,4 @@ ul li{
 }
 
 
-
-/* .buttons-style{
-    border: none;
-    padding: 10px;
-    text-align: center;
-} */
 
