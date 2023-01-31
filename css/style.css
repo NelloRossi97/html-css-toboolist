@@ -1,0 +1,43 @@
+/* color list
+background main #F6F8F9
+*/
+
+/* general rules */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* page colors */
+.blue-buttons{
+    color: #47ADF1;
+}
+
+.q1-goals-buttons{
+    color: #9C72E4;
+}
+
+.recuiting-buttons{
+    color: #64C0A9;
+}
+
+.mobile-buttons{
+    color: #f29e33;
+}
+
+.website-buttons{
+    color: #d863a1;
+}
+
+.sales-buttons{
+    color: #b0c926;
+}
+
+.check-color{
+    color: #8cd1c0;
+}
+
+.cross-color{
+    color: #EC564C;
+}
